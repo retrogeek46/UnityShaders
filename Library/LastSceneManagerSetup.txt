@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Day 1 - Hologram.unity
+- path: Assets/Scenes/Day 2 - Music Transparency.unity
   isLoaded: 1
   isActive: 1
