@@ -63,6 +63,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GlitchController.cs" />
     <Compile Include="Assets\Scripts\MusicController.cs" />
+    <Compile Include="Assets\Scripts\OutlineVisualizer.cs" />
+    <Compile Include="Assets\Scripts\RevolveCamera.cs" />
+    <None Include="Assets\Shaders\OutlineShader.shader" />
     <None Include="Assets\Shaders\Hologram.shader" />
     <None Include="Assets\Shaders\Regular Shader.shader" />
     <None Include="Assets\Shaders\MusicTransparency.shader" />

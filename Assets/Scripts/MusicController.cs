@@ -24,6 +24,10 @@ public class MusicController : MonoBehaviour {
     void Update () {
         audioSource.GetSpectrumData(this.samples, 0, FFTWindow.BlackmanHarris);
         float level = (Mathf.Clamp(samples[sampleIndex] * (1 + sampleIndex * sampleIndex), 0, 1));
+
+        //audioSource.GetOutputData(samples, 0);
+        //float level = samples[0];
+
         viewLevel = level;
         if (level > threshold) {
             value = 1 - level;

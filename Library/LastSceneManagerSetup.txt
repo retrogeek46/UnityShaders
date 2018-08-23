@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Day 2 - Music Transparency.unity
+- path: Assets/Scenes/Day 3 - Outline Visualizer.unity
   isLoaded: 1
   isActive: 1
